@@ -48,7 +48,10 @@ cd archival-records-system
 
 **Database**
 ```bash
-mysql -u root -p < database/schema.sql
+mysql -u root -p < database/table_creation.sql
+mysql -u root -p < database/procedures_functions_triggers.sql
+mysql -u root -p < database/views.sql
+mysql -u root -p < database/sample_data.sql
 ```
 
 **Backend**
